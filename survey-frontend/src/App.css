@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  background-color: #f2f6fc;
+  font-family: Arial, sans-serif;
+}
+
+.survey-page h1 {
+  color: #243b64;
+  font-weight: bold;
+}
+
+.survey-card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #f3f6fa;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.option-item input {
+  cursor: pointer;
+}
+
+.result-box {
+  padding: 15px;
+  background-color: #e7f5ec;
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+}
