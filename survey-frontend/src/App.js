@@ -4,7 +4,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-const API = "http://localhost:5001/surveys";
+const API = "https://onlinesurvey-9ihd.onrender.com/surveys";
 
 function App() {
   const [surveys, setSurveys] = useState([]);
